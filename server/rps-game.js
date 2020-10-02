@@ -18,7 +18,9 @@ class RpsGame {
   }
 
   _sendToPlayers(msg) {
-    this._players.forEach((s) => s.emit('message', msg))
+    this._players.forEach(player => {
+      player.emit('message', msg)
+    })
   }
 
   _onTurn(playerIndex, turn) {
@@ -27,4 +29,4 @@ class RpsGame {
   }
 }
 
-module.exports = RpsGame
+module.exports = RpsGame;;;;
