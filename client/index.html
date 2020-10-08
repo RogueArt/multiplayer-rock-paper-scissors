@@ -3,26 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/main.css">
-  <title>Rock Paper Scissors</title>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://kit.fontawesome.com/ed0f1d3a9f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<p class="title">Rock Paper Scissors</p>
   <div class="rps-wrapper">
-    <ul id="events">
-
+    <ul id="events" class="chat-box">
     </ul>
   </div>
 
   <div class="button-wrapper">
     <form id="chat-form">
-      <label for="chat">Chat:<label>
-      <input type="text" id="chat">
-    </form>
-    <button type="submit" id="say">Say</button>
-
-    <button type="button" id="rock">Rock</button>
-    <button type="button" id="paper">Paper</button>
-    <button type="button" id="scissors">Scissors</button>
+      <label for="chat">Chat: <label>
+			<input type="text" id="chat">
+			<button type="submit" id="say">Say</button>
+		</form>
+	</div>
+	<div class="play-buttons">
+		<button type="button" id="rock"><i class="fa fa-hand-rock"></i> Rock</button>
+		<button type="button" id="paper"><i class="fa fa-hand-paper"></i> Paper</button>
+		<button type="button" id="scissors"><i class="fa fa-hand-scissors"></i> Scissors</button>
+	</div>
   </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="js/client.js"></script>
