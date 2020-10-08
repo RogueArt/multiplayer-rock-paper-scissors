@@ -1,9 +1,9 @@
 # multiplayer-rock-paper-scissors
  Multiplayer Rock Paper Scissors made in JS/HTML/CSS using Express and Socket.IO
 
-![](https://imgur.com/a/ge7tztf)
+![Joining a rock-paper-scissors game](https://i.imgur.com/rZUpLgo.png)
 
-![](https://imgur.com/a/Nlkv4Vb)
+![Playing a round of rock-paper-scissors](https://i.imgur.com/jPcVzhJ.png)
 
 You can chat with other players using the chat function.
 Once there are two players, the game starts and you can play as many rounds as you like!
